@@ -1,0 +1,7 @@
+google-generativeai
+langchain
+streamlit
+python-dotenv
+PyPDF2
+$ conda activate /c/Users/Anitha/mcqgen/myenv
+$ source C:/Users/Anitha/anaconda3/Scripts/activate base
