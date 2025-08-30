@@ -9,8 +9,10 @@ import streamlit as st
 from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 import re
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-with open('C:/Users/Anitha/mcqgen/response.json','r') as file:
+file_path = os.path.join(BASE_DIR, "response.json")
+with open(file_path,'r') as file:
     RESPONSE_JSON=json.load(file)
 st.title("MCQs Creator Application with Langchain")
 
